@@ -241,6 +241,7 @@ namespace Yahoo.Yui.Compressor
                         threesList.Remove("try");
                         threesList.Remove("use");
                         threesList.Remove("var");
+                        threesList.Remove("let");
 
                         foreach (string word in _builtin)
                         {
@@ -396,6 +397,7 @@ namespace Yahoo.Yui.Compressor
                                                "try",
                                                "typeof",
                                                "var",
+                                               "let",
                                                "void",
                                                "while",
                                                "with",
